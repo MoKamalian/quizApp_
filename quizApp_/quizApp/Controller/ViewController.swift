@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     @objc func updateUI() {
         questionView.text = quizBrain.getQuestionText()
         progressBar.progress = quizBrain.getProgress()
-        scoreKeeper.text = "Scor: \(quizBrain.getScore())"
+        scoreKeeper.text = "Score: \(quizBrain.getScore())"
         optionOne.backgroundColor = UIColor.clear
         optionTwo.backgroundColor = UIColor.clear
         optionThree.backgroundColor = UIColor.clear
